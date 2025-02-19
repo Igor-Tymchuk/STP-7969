@@ -15,7 +15,6 @@
     margin-bottom: 24px;
     width: 335px;
     height: 301px;
-    border-radius: 20px;
   }
 
   .text-play {
@@ -94,9 +93,10 @@
 
   .element-nested-play {
     gap: 40px;
-    min-height: 108px;
+    max-height: 108px;
     max-width: 603px;
   }
+
   .element-play {
     display: flex;
     justify-content: center;
@@ -113,5 +113,6 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+    max-height: 283px;
   }
 }
